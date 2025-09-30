@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "description": "Custom website development using modern technologies",
+      "icon": "🌐"
+    },
+    {
+      "id": 2,
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform mobile application development",
+      "icon": "📱"
+    },
+    {
+      "id": 3,
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and migration services",
+      "icon": "☁️"
+    },
+    {
+      "id": 4,
+      "title": "Data Analytics",
+      "description": "Business intelligence and data visualization solutions",
+      "icon": "📊"
+    },
+    {
+      "id": 5,
+      "title": "Cybersecurity",
+      "description": "Comprehensive security solutions to protect your business",
+      "icon": "🔒"
+    },
+    {
+      "id": 6,
+      "title": "IT Consulting",
+      "description": "Strategic technology consulting and digital transformation",
+      "icon": "💡"
+    }
+  ]
+}
