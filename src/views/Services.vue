@@ -2,8 +2,8 @@
   <main>
     <section class="services-hero">
       <div class="container">
-        <h1>Our Services</h1>
-        <p class="lead">Comprehensive technology solutions for your business needs</p>
+        <h1>Layanan Kami</h1>
+        <p class="lead">Solusi teknologi komprehensif untuk kebutuhan bisnis Anda</p>
       </div>
     </section>
 

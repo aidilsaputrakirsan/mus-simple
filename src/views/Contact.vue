@@ -2,8 +2,8 @@
   <main>
     <section class="contact-hero">
       <div class="container">
-        <h1>Contact Us</h1>
-        <p class="lead">Get in touch with our team</p>
+        <h1>Hubungi Kami</h1>
+        <p class="lead">Terhubung dengan tim kami</p>
       </div>
     </section>
 
@@ -11,36 +11,36 @@
       <div class="container">
         <div class="contact-grid">
           <div class="contact-info">
-            <h2>Get In Touch</h2>
-            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            <h2>Hubungi Kami</h2>
+            <p>Kami senang mendengar dari Anda. Kirim pesan dan kami akan merespons secepat mungkin.</p>
             
             <div class="contact-details">
               <div class="contact-item">
                 <h3>📧 Email</h3>
-                <p>info@techcorp.com</p>
+                <p>info@tekcorp.com</p>
               </div>
               <div class="contact-item">
-                <h3>📞 Phone</h3>
+                <h3>📞 Telepon</h3>
                 <p>+62 21 1234 5678</p>
               </div>
               <div class="contact-item">
-                <h3>📍 Address</h3>
+                <h3>📍 Alamat</h3>
                 <p>Jl. Sudirman No. 123<br>Jakarta 12345, Indonesia</p>
               </div>
             </div>
           </div>
 
           <div class="contact-form">
-            <h2>Send Message</h2>
+            <h2>Kirim Pesan</h2>
             <form @submit.prevent="submitForm">
               <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Nama</label>
                 <input 
                   type="text" 
                   id="name" 
                   v-model="form.name" 
                   required
-                  placeholder="Your Name"
+                  placeholder="Nama Anda"
                 >
               </div>
               
@@ -51,33 +51,33 @@
                   id="email" 
                   v-model="form.email" 
                   required
-                  placeholder="your.email@example.com"
+                  placeholder="email.anda@contoh.com"
                 >
               </div>
               
               <div class="form-group">
-                <label for="subject">Subject</label>
+                <label for="subject">Subjek</label>
                 <input 
                   type="text" 
                   id="subject" 
                   v-model="form.subject" 
                   required
-                  placeholder="Message Subject"
+                  placeholder="Subjek Pesan"
                 >
               </div>
               
               <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message">Pesan</label>
                 <textarea 
                   id="message" 
                   v-model="form.message" 
                   required
                   rows="5"
-                  placeholder="Your message here..."
+                  placeholder="Pesan Anda di sini..."
                 ></textarea>
               </div>
               
-              <button type="submit" class="submit-btn">Send Message</button>
+              <button type="submit" class="submit-btn">Kirim Pesan</button>
             </form>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default {
   methods: {
     submitForm() {
       // Simple form validation and submission
-      alert('Thank you for your message! We will get back to you soon.')
+      alert('Terima kasih atas pesan Anda! Kami akan segera menghubungi Anda.')
       
       // Reset form
       this.form = {

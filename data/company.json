@@ -1,10 +1,10 @@
 {
-  "name": "TechCorp",
-  "tagline": "Innovative Technology Solutions",
-  "description": "We are a leading technology company providing cutting-edge solutions for businesses worldwide.",
+  "name": "TekCorp",
+  "tagline": "Solusi Teknologi Inovatif",
+  "description": "Kami adalah perusahaan teknologi terdepan yang menyediakan solusi canggih untuk bisnis di seluruh dunia.",
   "founded": "2010",
   "employees": "500+",
-  "locations": ["Jakarta", "Singapore", "Kuala Lumpur"],
-  "mission": "To empower businesses through innovative technology and exceptional service.",
-  "vision": "To be the most trusted technology partner in Southeast Asia."
+  "locations": ["Jakarta", "Singapura", "Kuala Lumpur"],
+  "mission": "Memberdayakan bisnis melalui teknologi inovatif dan layanan luar biasa.",
+  "vision": "Menjadi mitra teknologi paling terpercaya di Asia Tenggara."
 }

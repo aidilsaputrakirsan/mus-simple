@@ -1,8 +1,8 @@
 <template>
   <footer class="footer">
     <div class="footer-container">
-      <p>&copy; 2024 TechCorp. All rights reserved.</p>
-      <p>Vue.js Simple Performance Test Application</p>
+      <p>&copy; 2024 TekCorp. Hak cipta dilindungi.</p>
+      <p>Aplikasi Uji Performa Vue.js Sederhana</p>
     </div>
   </footer>
 </template>

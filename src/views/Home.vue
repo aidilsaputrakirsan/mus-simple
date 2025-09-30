@@ -6,7 +6,7 @@
         <h1 class="hero-title">{{ companyData.name }}</h1>
         <p class="hero-subtitle">{{ companyData.tagline }}</p>
         <p class="hero-description">{{ companyData.description }}</p>
-        <router-link to="/services" class="cta-button">Our Services</router-link>
+        <router-link to="/services" class="cta-button">Layanan Kami</router-link>
       </div>
     </section>
 
@@ -14,15 +14,15 @@
     <section class="stats">
       <div class="stats-container">
         <div class="stat-item">
-          <h3>Founded</h3>
+          <h3>Didirikan</h3>
           <p>{{ companyData.founded }}</p>
         </div>
         <div class="stat-item">
-          <h3>Employees</h3>
+          <h3>Karyawan</h3>
           <p>{{ companyData.employees }}</p>
         </div>
         <div class="stat-item">
-          <h3>Locations</h3>
+          <h3>Lokasi</h3>
           <p>{{ companyData.locations.length }}+</p>
         </div>
       </div>
@@ -31,7 +31,7 @@
     <!-- Services Preview -->
     <section class="services-preview">
       <div class="container">
-        <h2>Our Services</h2>
+        <h2>Layanan Kami</h2>
         <div class="services-grid">
           <div v-for="service in featuredServices" :key="service.id" class="service-card">
             <div class="service-icon">{{ service.icon }}</div>

@@ -1,19 +1,19 @@
 <template>
   <nav class="navbar">
     <div class="nav-container">
-      <router-link to="/" class="nav-logo">TechCorp</router-link>
+      <router-link to="/" class="nav-logo">TekCorp</router-link>
       <ul class="nav-menu">
         <li class="nav-item">
-          <router-link to="/" class="nav-link">Home</router-link>
+          <router-link to="/" class="nav-link">Beranda</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link">About</router-link>
+          <router-link to="/about" class="nav-link">Tentang</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/services" class="nav-link">Services</router-link>
+          <router-link to="/services" class="nav-link">Layanan</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/contact" class="nav-link">Contact</router-link>
+          <router-link to="/contact" class="nav-link">Kontak</router-link>
         </li>
       </ul>
     </div>

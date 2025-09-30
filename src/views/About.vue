@@ -2,7 +2,7 @@
   <main>
     <section class="about-hero">
       <div class="container">
-        <h1>About {{ companyData.name }}</h1>
+        <h1>Tentang {{ companyData.name }}</h1>
         <p class="lead">{{ companyData.description }}</p>
       </div>
     </section>
@@ -12,26 +12,26 @@
         <div class="content-grid">
           <div class="mission-vision">
             <div class="mission">
-              <h2>Our Mission</h2>
+              <h2>Misi Kami</h2>
               <p>{{ companyData.mission }}</p>
             </div>
             <div class="vision">
-              <h2>Our Vision</h2>
+              <h2>Visi Kami</h2>
               <p>{{ companyData.vision }}</p>
             </div>
           </div>
           
           <div class="company-info">
-            <h2>Company Overview</h2>
+            <h2>Gambaran Perusahaan</h2>
             <div class="info-grid">
               <div class="info-item">
-                <strong>Founded:</strong> {{ companyData.founded }}
+                <strong>Didirikan:</strong> {{ companyData.founded }}
               </div>
               <div class="info-item">
-                <strong>Team Size:</strong> {{ companyData.employees }}
+                <strong>Jumlah Tim:</strong> {{ companyData.employees }}
               </div>
               <div class="info-item">
-                <strong>Locations:</strong>
+                <strong>Lokasi:</strong>
                 <ul>
                   <li v-for="location in companyData.locations" :key="location">
                     {{ location }}

@@ -2,38 +2,38 @@
   "services": [
     {
       "id": 1,
-      "title": "Web Development",
-      "description": "Custom website development using modern technologies",
+      "title": "Pengembangan Web",
+      "description": "Pengembangan website kustom menggunakan teknologi modern",
       "icon": "🌐"
     },
     {
       "id": 2,
-      "title": "Mobile Apps",
-      "description": "Native and cross-platform mobile application development",
+      "title": "Aplikasi Mobile",
+      "description": "Pengembangan aplikasi mobile native dan cross-platform",
       "icon": "📱"
     },
     {
       "id": 3,
-      "title": "Cloud Solutions",
-      "description": "Scalable cloud infrastructure and migration services",
+      "title": "Solusi Cloud",
+      "description": "Infrastruktur cloud yang scalable dan layanan migrasi",
       "icon": "☁️"
     },
     {
       "id": 4,
-      "title": "Data Analytics",
-      "description": "Business intelligence and data visualization solutions",
+      "title": "Analisis Data",
+      "description": "Solusi business intelligence dan visualisasi data",
       "icon": "📊"
     },
     {
       "id": 5,
-      "title": "Cybersecurity",
-      "description": "Comprehensive security solutions to protect your business",
+      "title": "Keamanan Siber",
+      "description": "Solusi keamanan komprehensif untuk melindungi bisnis Anda",
       "icon": "🔒"
     },
     {
       "id": 6,
-      "title": "IT Consulting",
-      "description": "Strategic technology consulting and digital transformation",
+      "title": "Konsultasi IT",
+      "description": "Konsultasi teknologi strategis dan transformasi digital",
       "icon": "💡"
     }
   ]
