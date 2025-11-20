@@ -2,13 +2,15 @@
   <div id="app">
     <NavBar />
     <router-view />
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import Footer from './components/Footer.vue'
+import { defineAsyncComponent } from 'vue'
+
+const NavBar = defineAsyncComponent(() => import('./components/NavBar.vue'))
+const Footer = defineAsyncComponent(() => import('./components/Footer.vue'))
 
 export default {
   name: 'App',
